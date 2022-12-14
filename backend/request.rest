@@ -1,0 +1,51 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image": "https://i.uai.com.br/X6ZjWtqD5I0elFDfdW70lU9izzo=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2022/12/11/310968/naruto-e-um-dos-animes-mais-populares-do-mundo_1_45898.jpg"
+}
+
+###
+
+GET  http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/6399e125bd78a4b5b2fa9cf7
+
+###
+
+DELETE  http://localhost:3000/api/services/6399e125bd78a4b5b2fa9cf7
+
+###
+
+PUT   http://localhost:3000/api/services/639a0276522ffb69592293c1
+Content-Type: application/json
+
+{
+    "name": "trocou",
+    "description": "ATUALIZAdo",
+    "price": 1400,
+    "image": "https://i.uai.com.br/X6ZjWtqD5I0elFDfdW70lU9izzo=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2022/12/11/310968/naruto-e-um-dos-animes-mais-populares-do-mundo_1_45898.jpg"
+}
+
+###
+
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Meu Evento",
+    "author": "roberto",
+    "description": "uma festa de arromba",
+    "budget": 9000,
+    "image": "https://i.uai.com.br/X6ZjWtqD5I0elFDfdW70lU9izzo=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2022/12/11/310968/naruto-e-um-dos-animes-mais-populares-do-mundo_1_45898.jpg"
+}
+
+###
+
+GET  http://localhost:3000/api/parties
+
